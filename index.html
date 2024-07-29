@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="content">
+                <div class="box">
+                    <form action="" method="post">
+                        <h1 class="title">Contact Us</h1>
+
+                        <div class="last-frist">
+
+                            <div class="fname">
+                                <label for="frist">Frist Name <span>*</span></label>
+                                <input type="text" id="frist" required/>
+                            </div>
+
+                            <div class="lname">
+                                <label for="last">Last Name <span>*</span></label>
+                                <input type="text" id="last" required/>
+                            </div>
+
+                        </div>
+
+                        <!-- email -->
+
+                        <div class="email-add">
+                            <label for="email">Email Address <span>*</span></label>
+                            <input type="email" form="email" required/>
+                        </div>
+
+                        <!-- query -->
+
+                        <div class="query-type">
+                            <label for="query">Query Type <span class="fi">*</span></label>
+
+                            <div class="box2">
+                                <div class="general">
+                                    <input type="radio" id="radio" checked required>
+                                    <span>General Enquiry</span>
+                                </div>
+    
+                                <div class="supprot">
+                                    <input type="radio" id="radio2" required>
+                                    <span>Support Request</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- message -->
+                        <div class="message">
+                             <label for="message">Message <span>*</span></label>
+                             <textarea name="message" id="message" rows="7" ></textarea>
+                      </div>
+
+                      <!-- hecked -->
+                       <label class="checke" for="checked"><input type="checkbox" class="chek" name="checked" id="checked"> I consent to being contacted by the steam <span>*</span></label>
+
+                       <button class="but1">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

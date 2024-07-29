@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+--Green-200: hsl(148, 38%, 91%);
+--Green-600: hsl(169, 82%, 27%);
+--Red: hsl(0, 66%, 54%);
+
+--White: hsl(0, 0%, 100%);
+--Grey-500 : hsl(186, 15%, 59%);
+--Grey-900 : hsl(187, 24%, 22%);
+
+--font: "Karla", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color:var(--Green-200) ;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.content{
+    background-color: var(--White);
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+
+.box{
+    padding: 25px;
+}
+
+.title{
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+.last-frist{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.fname{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.lname{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.fname label{
+    font-size: 14px;
+    font-family: var(--font);
+    color: var(--Green-600);
+
+}
+.fname label span{
+    font-size: 10px;
+    color: var(--Green-600);
+}
+
+.fname input{
+    width: 230px;
+    padding: 10px;
+    border: 2px solid hsla(169, 82%, 27%, 0.203);
+    outline: none;
+    border-radius: 5px;
+}
+
+.lname label{
+    font-size: 14px;
+    font-family: var(--font);
+    color: var(--Green-600);
+
+}
+.lname label span{
+    font-size: 10px;
+    color: var(--Green-600);
+}
+
+.lname input{
+    width: 230px;
+    padding: 10px;
+    border: 2px solid hsla(169, 82%, 27%, 0.203);
+    outline: none;
+    border-radius: 5px;
+}
+
+/* email */
+
+
+.email-add{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 25px;
+}
+
+.email-add label{
+    font-size: 14px;
+    font-family: var(--font);
+    color: var(--Green-600);
+}
+.email-add span{
+    font-size: 10px;
+    color: var(--Green-600);
+}
+
+.email-add input{
+    padding: 10px;
+    border: 2px solid hsla(169, 82%, 27%, 0.203);
+    outline: none;
+    border-radius: 5px;
+}
+
+/* query */
+.query-type{
+    margin-top: 25px;
+}
+
+.query-type label{
+    font-size: 14px;
+    font-family: var(--font);
+    color: var(--Green-600);
+}
+
+.fi {
+    font-size: 10px;
+    color: var(--Green-600);
+}
+.box2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.general{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    border: 2px solid hsla(169, 82%, 27%, 0.203);
+    width: 230px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.general span {
+    font-family: var(--font);
+    color: var(--Green-600);
+    font-weight: 500;
+}
+
+.supprot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    border: 2px solid hsla(169, 82%, 27%, 0.203);
+    width: 230px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.supprot span {
+    font-family: var(--font);
+    color: var(--Green-600);
+    font-weight: 500;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.message label{
+    font-size: 14px;
+    font-family: var(--font);
+    color: var(--Green-600);
+    
+}
+
+.message span{
+    font-family: var(--font);
+    color: var(--Green-600);
+    font-weight: 500;
+}
+
+.message textarea{
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    outline: none;
+}
+
+.chek{
+    margin-right: 20px;
+    font-family: var(--font);
+    vertical-align: middle;
+}
+
+.checke{
+    color: var(--Green-600);
+    font-family: var(--font);
+}
+
+.checke span{
+    font-size: 13px;
+
+}
+
+.but1{
+    background-color: var(--Green-600);
+    font-family: var(--font);
+    color: white;
+    padding: 10px; 
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.but1:hover{
+    background-color: var(--Grey-900);
+}
