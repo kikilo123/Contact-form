@@ -76,6 +76,10 @@ body{
     border: 2px solid hsla(169, 82%, 27%, 0.203);
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.fname input:focus{
+    border: 3px solid  hsla(169, 82%, 27%, 0.549);
 }
 
 .lname label{
@@ -95,7 +99,12 @@ body{
     border: 2px solid hsla(169, 82%, 27%, 0.203);
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
 }
+.lname input:focus{
+    border: 3px solid  hsla(169, 82%, 27%, 0.549);
+}
+
 
 /* email */
 
@@ -153,13 +162,19 @@ body{
     width: 230px;
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .general span {
     font-family: var(--font);
     color: var(--Green-600);
     font-weight: 500;
 }
-
+.general input{
+    cursor: pointer;
+}
+#radio:active{
+    background-color: var(--Grey-500);
+}
 .supprot{
     display: flex;
     align-items: center;
@@ -169,11 +184,15 @@ body{
     width: 230px;
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .supprot span {
     font-family: var(--font);
     color: var(--Green-600);
     font-weight: 500;
+}
+.supprot input{
+    cursor: pointer;
 }
 
 .message{
@@ -203,20 +222,27 @@ body{
 }
 
 .chek{
-    margin-right: 20px;
+    margin-right: 10px;
     font-family: var(--font);
     vertical-align: middle;
+    cursor: pointer;
 }
+
 
 .checke{
     color: var(--Green-600);
     font-family: var(--font);
+    cursor: pointer;
 }
 
 .checke span{
     font-size: 13px;
-
 }
+
+.checke:active{
+    color: var(--Grey-900);
+}
+
 
 .but1{
     background-color: var(--Green-600);
@@ -229,6 +255,7 @@ body{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .but1:hover{
