@@ -164,13 +164,16 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-.general span {
+.general .ra1{
     font-family: var(--font);
     color: var(--Green-600);
     font-weight: 500;
+    
 }
-.general input{
+.general .ra1 input{
     cursor: pointer;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 #radio:active{
     background-color: var(--Grey-500);
@@ -186,13 +189,15 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-.supprot span {
+.supprot .ra2{
     font-family: var(--font);
     color: var(--Green-600);
     font-weight: 500;
 }
-.supprot input{
+.supprot .ra2 input{
     cursor: pointer;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .message{
